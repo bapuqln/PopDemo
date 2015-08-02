@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33AA7723E76B6F2658212BAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1AE33A7D331228B6AA905EC /* libPods.a */; };
+		EF43DD251B60DBDA00589339 /* PopAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF43DD241B60DBDA00589339 /* PopAnimationView.m */; };
+		EF43DD271B60DDAB00589339 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF43DD261B60DDAB00589339 /* QuartzCore.framework */; };
+		EF4635431B61DF73005F3080 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4635421B61DF73005F3080 /* MainWindow.m */; };
+		EF4635461B61DFBE005F3080 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4635451B61DFBE005F3080 /* MainView.m */; };
+		EF6260561B60D8F700E6AD53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6260551B60D8F700E6AD53 /* AppDelegate.m */; };
+		EF6260591B60D8F700E6AD53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6260581B60D8F700E6AD53 /* main.m */; };
+		EF62605C1B60D8F700E6AD53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62605B1B60D8F700E6AD53 /* ViewController.m */; };
+		EF62605E1B60D8F700E6AD53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF62605D1B60D8F700E6AD53 /* Assets.xcassets */; };
+		EF6260611B60D8F700E6AD53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF62605F1B60D8F700E6AD53 /* Main.storyboard */; };
+		EF62606C1B60D8F700E6AD53 /* PopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF62606B1B60D8F700E6AD53 /* PopDemoTests.m */; };
+		EF6260771B60D8F700E6AD53 /* PopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6260761B60D8F700E6AD53 /* PopDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF6260681B60D8F700E6AD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6260491B60D8F700E6AD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6260501B60D8F700E6AD53;
+			remoteInfo = PopDemo;
+		};
+		EF6260731B60D8F700E6AD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF6260491B60D8F700E6AD53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF6260501B60D8F700E6AD53;
+			remoteInfo = PopDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B92AB11982F526E171DF720 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B77CC8DE7F60D349FDD9B12D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D1AE33A7D331228B6AA905EC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF43DD231B60DBDA00589339 /* PopAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimationView.h; sourceTree = "<group>"; };
+		EF43DD241B60DBDA00589339 /* PopAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimationView.m; sourceTree = "<group>"; };
+		EF43DD261B60DDAB00589339 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EF4635411B61DF73005F3080 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		EF4635421B61DF73005F3080 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
+		EF4635441B61DFBE005F3080 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		EF4635451B61DFBE005F3080 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		EF6260511B60D8F700E6AD53 /* PopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6260541B60D8F700E6AD53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF6260551B60D8F700E6AD53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF6260581B60D8F700E6AD53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF62605A1B60D8F700E6AD53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF62605B1B60D8F700E6AD53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF62605D1B60D8F700E6AD53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF6260601B60D8F700E6AD53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF6260621B60D8F700E6AD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6260671B60D8F700E6AD53 /* PopDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF62606B1B60D8F700E6AD53 /* PopDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemoTests.m; sourceTree = "<group>"; };
+		EF62606D1B60D8F700E6AD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6260721B60D8F700E6AD53 /* PopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6260761B60D8F700E6AD53 /* PopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemoUITests.m; sourceTree = "<group>"; };
+		EF6260781B60D8F700E6AD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF62604E1B60D8F700E6AD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF43DD271B60DDAB00589339 /* QuartzCore.framework in Frameworks */,
+				33AA7723E76B6F2658212BAC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6260641B60D8F700E6AD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62606F1B60D8F700E6AD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12508717370F5F6C898C4BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF43DD261B60DDAB00589339 /* QuartzCore.framework */,
+				D1AE33A7D331228B6AA905EC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C424A8C8481CB053F5E1830B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B92AB11982F526E171DF720 /* Pods.debug.xcconfig */,
+				B77CC8DE7F60D349FDD9B12D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF6260481B60D8F700E6AD53 = {
+			isa = PBXGroup;
+			children = (
+				EF6260531B60D8F700E6AD53 /* PopDemo */,
+				EF62606A1B60D8F700E6AD53 /* PopDemoTests */,
+				EF6260751B60D8F700E6AD53 /* PopDemoUITests */,
+				EF6260521B60D8F700E6AD53 /* Products */,
+				C424A8C8481CB053F5E1830B /* Pods */,
+				12508717370F5F6C898C4BDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF6260521B60D8F700E6AD53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6260511B60D8F700E6AD53 /* PopDemo.app */,
+				EF6260671B60D8F700E6AD53 /* PopDemoTests.xctest */,
+				EF6260721B60D8F700E6AD53 /* PopDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF6260531B60D8F700E6AD53 /* PopDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EF6260541B60D8F700E6AD53 /* AppDelegate.h */,
+				EF6260551B60D8F700E6AD53 /* AppDelegate.m */,
+				EF62605A1B60D8F700E6AD53 /* ViewController.h */,
+				EF62605B1B60D8F700E6AD53 /* ViewController.m */,
+				EF4635411B61DF73005F3080 /* MainWindow.h */,
+				EF4635421B61DF73005F3080 /* MainWindow.m */,
+				EF4635441B61DFBE005F3080 /* MainView.h */,
+				EF4635451B61DFBE005F3080 /* MainView.m */,
+				EF43DD231B60DBDA00589339 /* PopAnimationView.h */,
+				EF43DD241B60DBDA00589339 /* PopAnimationView.m */,
+				EF62605D1B60D8F700E6AD53 /* Assets.xcassets */,
+				EF62605F1B60D8F700E6AD53 /* Main.storyboard */,
+				EF6260621B60D8F700E6AD53 /* Info.plist */,
+				EF6260571B60D8F700E6AD53 /* Supporting Files */,
+			);
+			path = PopDemo;
+			sourceTree = "<group>";
+		};
+		EF6260571B60D8F700E6AD53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF6260581B60D8F700E6AD53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF62606A1B60D8F700E6AD53 /* PopDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF62606B1B60D8F700E6AD53 /* PopDemoTests.m */,
+				EF62606D1B60D8F700E6AD53 /* Info.plist */,
+			);
+			path = PopDemoTests;
+			sourceTree = "<group>";
+		};
+		EF6260751B60D8F700E6AD53 /* PopDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6260761B60D8F700E6AD53 /* PopDemoUITests.m */,
+				EF6260781B60D8F700E6AD53 /* Info.plist */,
+			);
+			path = PopDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF6260501B60D8F700E6AD53 /* PopDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF62607B1B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemo" */;
+			buildPhases = (
+				6FE7E6B797F8EAF84D7409F1 /* Check Pods Manifest.lock */,
+				EF62604D1B60D8F700E6AD53 /* Sources */,
+				EF62604E1B60D8F700E6AD53 /* Frameworks */,
+				EF62604F1B60D8F700E6AD53 /* Resources */,
+				320FCA73566E064557862509 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopDemo;
+			productName = PopDemo;
+			productReference = EF6260511B60D8F700E6AD53 /* PopDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF6260661B60D8F700E6AD53 /* PopDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF62607E1B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemoTests" */;
+			buildPhases = (
+				EF6260631B60D8F700E6AD53 /* Sources */,
+				EF6260641B60D8F700E6AD53 /* Frameworks */,
+				EF6260651B60D8F700E6AD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6260691B60D8F700E6AD53 /* PBXTargetDependency */,
+			);
+			name = PopDemoTests;
+			productName = PopDemoTests;
+			productReference = EF6260671B60D8F700E6AD53 /* PopDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF6260711B60D8F700E6AD53 /* PopDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF6260811B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemoUITests" */;
+			buildPhases = (
+				EF62606E1B60D8F700E6AD53 /* Sources */,
+				EF62606F1B60D8F700E6AD53 /* Frameworks */,
+				EF6260701B60D8F700E6AD53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6260741B60D8F700E6AD53 /* PBXTargetDependency */,
+			);
+			name = PopDemoUITests;
+			productName = PopDemoUITests;
+			productReference = EF6260721B60D8F700E6AD53 /* PopDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF6260491B60D8F700E6AD53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MacDev;
+				TargetAttributes = {
+					EF6260501B60D8F700E6AD53 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					EF6260661B60D8F700E6AD53 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF6260501B60D8F700E6AD53;
+					};
+					EF6260711B60D8F700E6AD53 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = EF6260501B60D8F700E6AD53;
+					};
+				};
+			};
+			buildConfigurationList = EF62604C1B60D8F700E6AD53 /* Build configuration list for PBXProject "PopDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF6260481B60D8F700E6AD53;
+			productRefGroup = EF6260521B60D8F700E6AD53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF6260501B60D8F700E6AD53 /* PopDemo */,
+				EF6260661B60D8F700E6AD53 /* PopDemoTests */,
+				EF6260711B60D8F700E6AD53 /* PopDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF62604F1B60D8F700E6AD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62605E1B60D8F700E6AD53 /* Assets.xcassets in Resources */,
+				EF6260611B60D8F700E6AD53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6260651B60D8F700E6AD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6260701B60D8F700E6AD53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		320FCA73566E064557862509 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FE7E6B797F8EAF84D7409F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF62604D1B60D8F700E6AD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62605C1B60D8F700E6AD53 /* ViewController.m in Sources */,
+				EF6260591B60D8F700E6AD53 /* main.m in Sources */,
+				EF4635431B61DF73005F3080 /* MainWindow.m in Sources */,
+				EF6260561B60D8F700E6AD53 /* AppDelegate.m in Sources */,
+				EF43DD251B60DBDA00589339 /* PopAnimationView.m in Sources */,
+				EF4635461B61DFBE005F3080 /* MainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6260631B60D8F700E6AD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF62606C1B60D8F700E6AD53 /* PopDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF62606E1B60D8F700E6AD53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF6260771B60D8F700E6AD53 /* PopDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6260691B60D8F700E6AD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6260501B60D8F700E6AD53 /* PopDemo */;
+			targetProxy = EF6260681B60D8F700E6AD53 /* PBXContainerItemProxy */;
+		};
+		EF6260741B60D8F700E6AD53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF6260501B60D8F700E6AD53 /* PopDemo */;
+			targetProxy = EF6260731B60D8F700E6AD53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF62605F1B60D8F700E6AD53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF6260601B60D8F700E6AD53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF6260791B60D8F700E6AD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF62607A1B60D8F700E6AD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF62607C1B60D8F700E6AD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B92AB11982F526E171DF720 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF62607D1B60D8F700E6AD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B77CC8DE7F60D349FDD9B12D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF62607F1B60D8F700E6AD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopDemo.app/Contents/MacOS/PopDemo";
+			};
+			name = Debug;
+		};
+		EF6260801B60D8F700E6AD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopDemo.app/Contents/MacOS/PopDemo";
+			};
+			name = Release;
+		};
+		EF6260821B60D8F700E6AD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF6260831B60D8F700E6AD53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PopDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.PopDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PopDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF62604C1B60D8F700E6AD53 /* Build configuration list for PBXProject "PopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6260791B60D8F700E6AD53 /* Debug */,
+				EF62607A1B60D8F700E6AD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF62607B1B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62607C1B60D8F700E6AD53 /* Debug */,
+				EF62607D1B60D8F700E6AD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF62607E1B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF62607F1B60D8F700E6AD53 /* Debug */,
+				EF6260801B60D8F700E6AD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF6260811B60D8F700E6AD53 /* Build configuration list for PBXNativeTarget "PopDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6260821B60D8F700E6AD53 /* Debug */,
+				EF6260831B60D8F700E6AD53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF6260491B60D8F700E6AD53 /* Project object */;
+}
